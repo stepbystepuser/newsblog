@@ -1,0 +1,204 @@
+/*INDEX MEDIA QUERY*/
+@media only screen and (min-width:600px) and (max-width:799px) and (orientation: portrait){
+    body, .secao, main, article{
+        background: white;
+        margin: 0px 0px 0px 0px;
+        padding: 1px;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+    }
+.weather, aside,  .presentation {
+display: none;
+}
+
+.news{
+    max-height: 289px;
+    box-sizing: content-box;
+}
+
+.title{
+margin: 33% 0 0 5%;
+font-size: 19px;    
+}
+.foto{
+    max-width: 150px;
+	max-height: 150px;
+	border-radius: 12px;
+}
+.logo #logoimg{   
+    max-width: 100px; 
+    max-height: 100px; 
+    margin-left: 40%;
+}
+#search{
+    height: 16vh;
+    clear: both; 
+}
+.formbusca{
+    display: flex;
+    margin: 76px 20px 0px 1px;
+    min-width: 100%;
+    max-height: 46px;
+    
+ }
+
+#form_busca{
+    font-size: 36px;
+ position: absolute;
+  left: -65px;
+  min-width: 70%;
+  max-height: 45px;
+}
+
+#but{
+    max-height: 46px;
+    border-radius: 4px;
+   margin: 3px 0px 0px 499px;
+    width: 10%;
+    display:block;
+    background: #4286f4;
+}
+#icone{
+    margin-top: 46px;
+    max-height: 40px;
+    height: 40px;
+}
+.menu{
+    width: 60%;
+    height: 85%;
+}
+.link{
+    font-size: 25px;
+}
+.linkAlt{
+    font-size: 25px;
+}
+.titulo{
+font-size: 28px;
+}
+.resumo{
+    font-size: 28px;
+    margin-top: 2px;
+}
+
+
+.ndart{
+    margin: 0 2% 0 2%;
+    padding: 3px;
+    min-width: 98%;
+    box-sizing: border-box;
+}
+.ndtitle{
+    width: 98%;
+    font-size: 45px;
+    margin: 120px 0 0 0;
+}
+.autordata{
+    color: brown;
+    font-size: 20px;
+    display: block;
+}
+.newdtsec{
+    min-width: 98%;
+}
+.newdetailsfoto{
+    margin: 0 1% 0 1%;
+    width: 96%;
+    box-sizing: border-box;
+}
+.newdetailsimg{
+    min-width: 100%;
+   min-height: 100%;
+ }
+ .textond{
+    font-size: 36px;
+    text-align: left;
+    min-width: 100%;
+    max-width: 105%;
+}
+#text{
+   margin: 0px 2% 0px 3%;
+}
+
+
+.contbody, .contato,.txtarea, .contatotext, .inlinecont, .contatoinfo, .contatoinfo2{
+   
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: white;
+}
+.articlec{
+    width: 130%;
+}
+
+
+.contatoinfo{
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    margin: 0 0 0 11%;
+}
+.contatoinfo2{
+    font-size: 25px;
+ display: block;
+ width: 100%;
+ text-align: justify;
+ margin: 0 0 0 5%;
+}
+ .banner, .imgbanner{
+     max-width: 600px;
+ }
+ .textinbox{
+     font-size: 20px;
+     margin: 2px 2px;
+     padding: 0;
+ }
+ .text1{
+	position: relative;
+	margin: -30% 0 0 4%;
+	font-size: 200%; 
+    text-align: center;
+}
+.text2{
+	margin: 0 0 0 3%;
+	font-size: 120%;
+	text-align: center;
+}
+.formcontato{   
+    width: 90%;
+}
+.formulc{
+    background: white;
+    padding: 0;
+    font-size: 20px;
+}
+.entrycont{
+    margin: 0;
+border-radius: 0;
+height: 34px;
+min-width: 120%;
+font-size: 30px;
+}
+#depart{
+    font-size: 30px;
+}
+#msg, .txtarea{
+    min-width: 125%;
+    max-height: 300px;
+    font-size: 30px;
+}
+
+
+
+.linkpres{
+    font-size: 22px;
+}
+#btn-ok{
+margin-left: 50%; 
+font-size: 20px;
+}
+
+}

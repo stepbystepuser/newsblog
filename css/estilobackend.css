@@ -1,0 +1,186 @@
+/* --MENU BACKEND--*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+.menu{
+list-style: none;
+border: 1px solid #c0c0c0;
+float: left;
+margin-left: 37%;
+}
+.menu li{
+	position: relative;
+	float: left;
+	border-right: 1px solid #c0c0c0;
+	
+}
+.menu li a{
+	color:#333; 
+	text-decoration: none; 
+	padding: 5px 10px;
+	display: block;
+	
+}
+.menu li a:hover{
+	background: #333;
+	color: #fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow: 0px 0px 5px #fff;
+}
+.menu .lisair a:hover{
+	background: #ff6666;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC; 
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow: 0px 0px 5px #fff;
+}
+.menu li .sub-menu{
+	position: absolute;
+	/*	top: 27px;*/
+	left: 0;
+	background: #fff;
+	display: none;
+
+}
+.menu li:hover .sub-menu, .menu li:hover .sub-menu{
+display: block;
+}
+.menu li .sub-menu li{
+	border: 1px solid #c0c0c0;
+	display: block;
+	width: 150px;
+}
+/*ADMIN/INDEX*/
+.center{
+	width: 25%;
+	height: 220px;
+	background: #fff;
+	margin: 14% 30% 0 36%;
+	padding: 7px;
+	border-radius: 8px;
+	box-sizing: content-box;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    }
+.fundo{
+	background: #f1f1f1;
+}
+.estica{
+	margin: 10px ;
+	width: 90%;
+	border: none;
+	height: 22px;
+	border-radius: 4px;
+	padding-left: 4px;
+	
+}
+#vai{
+	float: right;
+	margin: 12px 20px 0 0;
+	border-radius: 4px;
+	width: 20%;
+	height: 25px;
+	color: rgb(0, 163, 109);
+	background-color: #fff;
+	border-color: rgb(2, 173, 116);
+	font-weight: bold;
+}
+.centraliza{
+	text-align: center;
+	margin-top: 5px;
+}
+#lateralsup{
+margin: 1% 0 0 1%;
+}
+.centraliza, .estica{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*FIM DO CSS ADMIN/INDEX*/
+/*==============================================*/
+/*ESTILIZAÇÃO PAGINAS anyADD*/
+.content{
+	border-radius: 3px;
+	box-sizing: content-box;
+	margin: 2% 29%;
+	width: 40%;
+	background: #F5F5F5	;
+	color: black;
+	font-size: 160%;
+	min-height: auto;
+	padding: 15px;
+	text-align: left;
+	box-shadow:-1px -1px 25px rgba(2, 4, 44, 0.3);
+	clear: both;
+}
+.feedback{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white; 
+	background:  #c65353;
+	
+	text-align: right;
+	width: 100%;
+	padding: 0 5px 5px 0;	
+}
+
+header{
+	font-size: 140%;
+	text-align: center;
+	margin: 1%;
+}
+.btn-ok{
+	padding: 2px;
+	margin-left: 38%;
+	color: white;
+	background-color: transparent;
+	border-radius: 5px;
+	width: 100px;
+	height: 55px;
+	border: 1px;
+	border-color: white;
+}
+.cadastrar, .alterar, .excluir{
+	width: 80px;
+	height: 40px;
+	border-radius: 7px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 80%;
+}
+.cadastrar, .alterar{
+	background-color: #3AA9E1;
+}
+.excluir{
+	background-color: #E82D17;
+}
+.linkw{
+	text-decoration: none;
+	color: white;
+}
+.linkb{
+	text-decoration: none;
+	color: black;
+}
+
+.buttons{
+	margin-left: 37%;
+}
+.txta{
+	resize: none;
+	padding: 4px;
+	width: 89%;
+	margin-left: 2%;
+	border-radius: 4px;
+	border: none;
+	color: black;
+	background-color: #fff;
+}
+
+

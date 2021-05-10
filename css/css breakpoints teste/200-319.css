@@ -1,0 +1,155 @@
+/*INDEX MEDIA QUERY*/
+@media only screen and (min-width:200px) and (max-width:319px) and (orientation: portrait){
+    body, .secao, main, article{
+        background: white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+    }
+.weather, aside, .formbusca, #but, .presentation {
+display: none;
+}
+.title{
+margin: 33% 0 0 5%;
+font-size: 12px;    
+}
+ 
+.news{
+        padding: 5px;
+        font-size: 8px;
+        letter-spacing: 0px;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #c0c0c0;      
+    }
+    .foto{
+        margin: 0 1% 0 1%;
+        min-width: 95%;
+        height: 100px; 
+        z-index: 0;        
+    }
+    .titulo{
+        width: 100%;
+        margin-top: 4%;
+        float: right;
+    }
+   
+    .rodape{
+        margin: 10px 0 0 0;
+        font-size: 9px;
+    }
+    #search{
+        height: 14vh;
+    }
+    .logo #logoimg{    
+		display: inline-flex;
+        width: 100%;
+    }
+   
+    .menu{
+        width: 60%;
+        height: 85%;
+    }
+    .link, .linkAlt{
+        font-size: 9pt;
+    }
+    /*NEW DATAILS CSS MEDIA QUERY*/
+
+    .newdetails{
+        max-width: 100%;
+    }
+    .ndart{
+        margin: 0 2% 0 2%;
+        padding: 3px;
+        min-width: 98%;
+    }
+    .ndtitle{
+        width: 95%;
+        font-size: 100%;
+        margin: 70px 0 0 0;
+    }
+    .newdtsec{
+        min-width: 97%;
+    }
+    .newdetailsfoto{
+        margin: 0 1% 0 1%;
+        width: 96%;
+        box-sizing: border-box;
+    }
+    .newdetailsimg{
+       min-width: 100%;
+      min-height: 100%;
+    }
+    .autordata{
+        color: brown;
+        font-size: 60%;
+    }
+    .resumo{
+        font-size: 90%;
+    }
+    .textond{
+        font-size: 70%;
+        text-align: left;
+        min-width: 100%;
+        max-width: 105%;
+        line-height: 14px;
+        padding-right: 5px; 
+    }
+   #text{
+       margin: 0px 2% 0px 3%;
+   }
+    
+   /*NEWSCAT MEDIA QUERY*/
+   .contbody, .contato,.txtarea, .contatotext, .inlinecont, .contatoinfo, .contatoinfo2{
+       font-size: 12px;
+       max-width: 100%;
+       padding: 0px;
+       margin: 0px;
+       box-sizing: border-box;
+       background: white;
+   }
+   .contatoinfo{
+       display: block;
+       text-align: justify;
+       margin: 0 0 0 14%;
+   }
+   .contatoinfo2{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    margin: 0 0 0 5%;
+}
+
+   .contato{
+       min-width: 85%;
+       max-width: 90%
+   }
+    .banner, .imgbanner{
+       display: none;
+   }
+
+   .formcontato{
+       
+       width: 90%;
+   }
+   .formulc{
+       background: white;
+   }
+   .entrycont{
+    height: 13px;
+   min-width: 100%;
+   font-size: 10px;
+   }
+   #msg, .txtarea{
+       min-width: 125%;
+       max-height: 70px;
+   }
+   hr{
+       display: none;
+   }
+
+ 
+
+}
